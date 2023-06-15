@@ -1,7 +1,8 @@
-import NameHeader from "./components/NameHeader";
+import NameHeader from "./components/DeveloperContent/NameHeader";
 import RingsPattern from "./components/RingsPattern"
 import DeveloperInfo from "./components/DeveloperInfo/DeveloperInfo";
-import DevProfilePic from "./components/DevProfilePic";
+import DevProfilePic from "./components/DeveloperInfo/DevProfilePic";
+import ContactMeButton from "./components/Contact/ContactMeButton";
 
 import './App.css'
 
@@ -12,6 +13,7 @@ function App() {
       <RingsPattern />
       <DeveloperInfo />
       <DevProfilePic />
+      <ContactMeButton />
     </div>
   );
 }

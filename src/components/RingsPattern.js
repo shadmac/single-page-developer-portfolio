@@ -8,7 +8,8 @@ const ringsPatternStyle = {
     top: '8.3125rem',
     mixBlendMode: 'normal',
     opacity: 0.25,
-    position: 'absolute'
+    position: 'absolute',
+
 }
 
 const RingsPattern = () => {

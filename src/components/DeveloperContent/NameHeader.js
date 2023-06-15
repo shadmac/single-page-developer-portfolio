@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDeveloperContext } from '../Context';
+import { useDeveloperContext } from '../../Context';
 
 const nameHeaderStyle = {
     width: '10.75rem',

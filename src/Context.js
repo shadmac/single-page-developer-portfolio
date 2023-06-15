@@ -11,6 +11,11 @@ export const Context = ({ children }) => {
             "lastName": "Keyes",
             "greeting": "Nice to meet you!",
             "intro": "Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.",
+            "profilePic": {
+                "desktop": '/assets/images/image-profile-desktop.webp',
+                "mobile": '/assets/images/image-profile-mobile.webp',
+                "tablet": '/assets/images/image-profile-tablet.webp',
+            },
             "techstack": {
                 "html": "4",
                 "css": "4",
@@ -28,8 +33,8 @@ export const Context = ({ children }) => {
                         "2": "css"
                     },
                     "img": {
-                        "large": "./assets/images/thumbnail-project-1-large.webp",
-                        "small": "./assets/images/thumbnail-project-1-small.webp"
+                        "large": "/assets/images/thumbnail-project-1-large.webp",
+                        "small": "/assets/images/thumbnail-project-1-small.webp"
                     }
                 },
                 {
@@ -39,8 +44,8 @@ export const Context = ({ children }) => {
                         "2": "css"
                     },
                     "img": {
-                        "large": "./assets/images/thumbnail-project-2-large.webp",
-                        "small": "./assets/images/thumbnail-project-2-small.webp"
+                        "large": "/assets/images/thumbnail-project-2-large.webp",
+                        "small": "/assets/images/thumbnail-project-2-small.webp"
                     }
                 },
                 {
@@ -51,8 +56,8 @@ export const Context = ({ children }) => {
                         "3": "javascript"
                     },
                     "img": {
-                        "large": "./assets/images/thumbnail-project-3-large.webp",
-                        "small": "./assets/images/thumbnail-project-3-small.webp"
+                        "large": "/assets/images/thumbnail-project-3-large.webp",
+                        "small": "/assets/images/thumbnail-project-3-small.webp"
                     }
                 },
                 {
@@ -63,8 +68,8 @@ export const Context = ({ children }) => {
                         "3": "javascript"
                     },
                     "img": {
-                        "large": "./assets/images/thumbnail-project-4-large.webp",
-                        "small": "./assets/images/thumbnail-project-4-small.webp"
+                        "large": "/assets/images/thumbnail-project-4-large.webp",
+                        "small": "/assets/images/thumbnail-project-4-small.webp"
                     }
                 },
                 {
@@ -75,8 +80,8 @@ export const Context = ({ children }) => {
                         "3": "javascript"
                     },
                     "img": {
-                        "large": "./assets/images/thumbnail-project-5-large.webp",
-                        "small": "./assets/images/thumbnail-project-5-small.webp"
+                        "large": "/assets/images/thumbnail-project-5-large.webp",
+                        "small": "/assets/images/thumbnail-project-5-small.webp"
                     }
                 },
                 {
@@ -87,8 +92,8 @@ export const Context = ({ children }) => {
                         "3": "javascript"
                     },
                     "img": {
-                        "large": "./assets/images/thumbnail-project-6-large.webp",
-                        "small": "./assets/images/thumbnail-project-6-small.webp"
+                        "large": "/assets/images/thumbnail-project-6-large.webp",
+                        "small": "/assets/images/thumbnail-project-6-small.webp"
                     }
                 }
             ]

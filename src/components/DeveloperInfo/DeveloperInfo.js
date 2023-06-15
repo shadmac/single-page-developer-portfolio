@@ -8,10 +8,10 @@ const DeveloperInfo = () => {
     const { developersData } = useDeveloperContext()
 
     return (
-        <div className='developerContainer'>
+        <>
             {
                 developersData.map((developer, index) => (
-                    <>
+                    <div className='developerContainer' key={developer.id} >
                         <div className='devGreeting' > {`${developer.greeting}`} </div>
                         <div className='devNameContainer' >
                             <p>I'm</p>
@@ -19,11 +19,11 @@ const DeveloperInfo = () => {
                         </div>
                         <div className='devRectangle' ></div>
                         <div className='devIntro'> {`${developer.intro}`} </div>
-                    </>
+                    </div>
                 ))
             }
 
-        </div>
+        </>
     )
 }
 
