@@ -1,0 +1,55 @@
+.developerContainer {
+	width: 44.125rem;
+	height: 18.9375rem;
+	top: 12.375rem;
+	left: 10.3125rem;
+	position: absolute;
+}
+
+.devGreeting {
+	width: 44.3125rem;
+	height: 5.5rem;
+	font-weight: 700;
+	font-size: 5.5rem;
+	color: rgba(255, 255, 255, 1);
+	letter-spacing: -0.1563rem;
+}
+
+.devNameContainer {
+	display: flex;
+	font-weight: 700;
+	font-size: 5.5rem;
+	color: rgba(255, 255, 255, 1);
+	letter-spacing: -0.1563rem;
+	margin-top: 1.0625rem;
+}
+
+.devNameContainer p {
+	width: 7.5rem;
+	height: 5.5rem;
+}
+
+.devName {
+	width: 32.375rem;
+	height: 5.5rem;
+	margin-left: 1.0625rem;
+}
+
+.devRectangle {
+	width: 30.75rem;
+	height: 0.375rem;
+	background-color: rgba(78, 225, 160, 1);
+	position: absolute;
+	left: 8.5625rem;
+	margin-top: 1.0625rem;
+}
+
+.devIntro {
+	width: 27.8125rem;
+	height: 5.25rem;
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	color: rgba(217, 217, 217, 1);
+	margin-top: 2.6875rem;
+}
