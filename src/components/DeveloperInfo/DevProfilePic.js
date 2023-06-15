@@ -38,6 +38,7 @@ const devProfilePicStyle = {
     height: "38.625rem",
     position: "absolute",
     bottom: "0rem",
+
 }
 
 const contactLinksStyle = {

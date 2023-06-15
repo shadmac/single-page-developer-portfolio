@@ -1,0 +1,84 @@
+.techStackContainer {
+	width: 69.375rem;
+	height: 20.4375rem;
+	position: absolute;
+	top: 51.5rem;
+	left: 10.3125rem;
+}
+
+.tStackRectangle {
+	width: 69.375rem;
+	height: 0.0625rem;
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+}
+
+.allTechStacks {
+	width: 68.75rem;
+	height: 15.875rem;
+	margin-top: 4.5rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.allTechStacks article {
+	width: 21.5625rem;
+	height: 6.125rem;
+}
+
+.cssContainer,
+.reactContainer {
+	margin-left: 1.875rem;
+}
+
+.jsContainer,
+.sassContainer {
+	margin-left: 2.1875rem;
+}
+
+.accessContainer,
+.reactContainer,
+.sassContainer {
+	margin-top: 3.625rem;
+}
+
+.techTitles.html {
+	width: 7.75rem;
+}
+
+.techTitles.css {
+	width: 5.4375rem;
+}
+
+.techTitles.javaspt {
+	width: 14.4375rem;
+}
+
+.techTitles.access {
+	width: 17.5rem;
+}
+
+.techTitles.react {
+	width: 8.0625rem;
+}
+.techTitles.sass {
+	width: 6.4375rem;
+}
+
+.techTitles {
+	color: rgba(255, 255, 255, 1);
+	font-weight: 700;
+	font-size: 3rem;
+	letter-spacing: -0.0938rem;
+	height: 3.5rem;
+}
+
+.techExp {
+	width: 21.5625rem;
+	height: 1.75rem;
+	color: rgba(217, 217, 217, 1);
+	font-weight: 500;
+	font-size: 1.125rem;
+	text-transform: capitalize;
+	margin-top: 0.875rem;
+}

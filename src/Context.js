@@ -17,12 +17,12 @@ export const Context = ({ children }) => {
                 "tablet": '/assets/images/image-profile-tablet.webp',
             },
             "techstack": {
-                "html": "4",
-                "css": "4",
-                "javascript": "4",
-                "accessibility": "4",
-                "react": "3",
-                "sass": "3"
+                "html": '4 years experience',
+                "css": "4 years experience",
+                "javascript": "4 years experience",
+                "access": "4 years experience",
+                "react": "3 years experience",
+                "sass": "3 years experience"
             },
             "contactMessage": "  I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.",
             "projectDetails": [

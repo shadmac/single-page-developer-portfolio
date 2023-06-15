@@ -3,6 +3,7 @@ import RingsPattern from "./components/RingsPattern"
 import DeveloperInfo from "./components/DeveloperInfo/DeveloperInfo";
 import DevProfilePic from "./components/DeveloperInfo/DevProfilePic";
 import ContactMeButton from "./components/Contact/ContactMeButton";
+import TechStackExperience from "./components/DeveloperContent/TechStackExperience/TechStackExperience";
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
       <DeveloperInfo />
       <DevProfilePic />
       <ContactMeButton />
+      <TechStackExperience />
     </div>
   );
 }

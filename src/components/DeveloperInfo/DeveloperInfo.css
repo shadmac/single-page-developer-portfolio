@@ -4,6 +4,8 @@
 	top: 12.375rem;
 	left: 10.3125rem;
 	position: absolute;
+	z-index: 5;
+	background: transparent;
 }
 
 .devGreeting {
@@ -13,6 +15,7 @@
 	font-size: 5.5rem;
 	color: rgba(255, 255, 255, 1);
 	letter-spacing: -0.1563rem;
+	background: transparent;
 }
 
 .devNameContainer {
@@ -22,6 +25,7 @@
 	color: rgba(255, 255, 255, 1);
 	letter-spacing: -0.1563rem;
 	margin-top: 1.0625rem;
+	background: transparent;
 }
 
 .devNameContainer p {
@@ -52,4 +56,5 @@
 	line-height: 1.75rem;
 	color: rgba(217, 217, 217, 1);
 	margin-top: 2.6875rem;
+	background: transparent;
 }
