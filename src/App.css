@@ -11,5 +11,6 @@
 }
 
 .appContainer {
-	max-width: 90rem;
+	width: 100vw;
+	height: 100vh;
 }

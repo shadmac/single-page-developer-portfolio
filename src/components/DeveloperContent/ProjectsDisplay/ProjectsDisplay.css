@@ -1,0 +1,71 @@
+.projectDispContainer {
+	width: 69.375rem;
+	height: 110.4375rem;
+	position: absolute;
+	top: 80.6875rem;
+	left: 10.3125rem;
+}
+
+.titleContainer {
+	width: 20.875rem;
+	height: 5.5rem;
+	font-weight: 700;
+	font-size: 5.5rem;
+	letter-spacing: -0.1563rem;
+	color: rgba(255, 255, 255, 1);
+}
+
+.projectsContainer {
+	max-width: 69.375rem;
+	height: 99.9375rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.project {
+	width: 33.75rem;
+	height: 30.4375rem;
+	position: relative;
+	top: 10.5rem;
+	border: 1px solid rgba(151, 151, 151, 1);
+}
+
+.projectImg {
+	width: 33.75rem;
+	height: 25rem;
+}
+
+.projectDesc {
+	width: auto;
+	height: 4.1875rem;
+}
+
+.projectTitle {
+	width: auto;
+	height: 2rem;
+	color: rgba(255, 255, 255, 1);
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+	padding-left: 0.1875rem;
+}
+
+.projectTechs {
+	width: auto;
+	height: 1.75rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.tech {
+	width: auto;
+	height: 1.75rem;
+	color: rgba(217, 217, 217, 1);
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	text-transform: uppercase;
+}

@@ -29,8 +29,8 @@ export const Context = ({ children }) => {
                 {
                     "title": "Design portfolio",
                     "techs": {
-                        "1": "html",
-                        "2": "css"
+                        "a": "html",
+                        "b": "css"
                     },
                     "img": {
                         "large": "/assets/images/thumbnail-project-1-large.webp",
@@ -40,8 +40,8 @@ export const Context = ({ children }) => {
                 {
                     "title": "E-learning landing page",
                     "techs": {
-                        "1": "html",
-                        "2": "css"
+                        "a": "html",
+                        "b": "css"
                     },
                     "img": {
                         "large": "/assets/images/thumbnail-project-2-large.webp",
@@ -51,9 +51,9 @@ export const Context = ({ children }) => {
                 {
                     "title": "Todo web app",
                     "techs": {
-                        "1": "html",
-                        "2": "css",
-                        "3": "javascript"
+                        "a": "html",
+                        "b": "css",
+                        "c": "javascript"
                     },
                     "img": {
                         "large": "/assets/images/thumbnail-project-3-large.webp",
@@ -63,9 +63,9 @@ export const Context = ({ children }) => {
                 {
                     "title": "Entertainment web app",
                     "techs": {
-                        "1": "html",
-                        "2": "css",
-                        "3": "javascript"
+                        "a": "html",
+                        "b": "css",
+                        "c": "javascript"
                     },
                     "img": {
                         "large": "/assets/images/thumbnail-project-4-large.webp",
@@ -75,9 +75,9 @@ export const Context = ({ children }) => {
                 {
                     "title": "Memory Game",
                     "techs": {
-                        "1": "html",
-                        "2": "css",
-                        "3": "javascript"
+                        "a": "html",
+                        "b": "css",
+                        "c": "javascript"
                     },
                     "img": {
                         "large": "/assets/images/thumbnail-project-5-large.webp",
@@ -87,9 +87,9 @@ export const Context = ({ children }) => {
                 {
                     "title": "Art gallery showcase",
                     "techs": {
-                        "1": "html",
-                        "2": "css",
-                        "3": "javascript"
+                        "a": "html",
+                        "b": "css",
+                        "c": "javascript"
                     },
                     "img": {
                         "large": "/assets/images/thumbnail-project-6-large.webp",

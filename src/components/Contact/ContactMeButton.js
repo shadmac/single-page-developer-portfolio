@@ -14,9 +14,6 @@ export default ContactMeButton
 const btnContainerStyle = {
     width: "7.5rem",
     height: '2.375rem',
-    position: "absolute",
-    top: "35.4375rem",
-    left: "10.3125rem",
     display: "flex",
     justifyContent: "center",
 }
