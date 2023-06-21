@@ -8,8 +8,6 @@ const nameHeaderStyle = {
     fontWeight: '700',
     fontSize: '2rem',
     color: 'rgba(255, 255, 255, 1)',
-    marginTop: '2.4375rem',
-    marginLeft: '10.3125rem',
 };
 
 const NameHeader = () => {

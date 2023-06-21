@@ -9,6 +9,11 @@ import ProjectsDisplay from "./components/DeveloperContent/ProjectsDisplay/Proje
 import './App.css'
 import ContactInfo from "./components/Contact/ContactInfo";
 
+const nameHeaderTop = {
+  marginTop: '2.4375rem',
+  marginLeft: '10.3125rem',
+}
+
 const ringsPatternTopStyle = {
   height: '8.0625rem',
   width: '33.125rem',
@@ -35,11 +40,20 @@ const topContactBtnStyle = {
   left: "10.3125rem",
 }
 
+const footerStyle = {
+  width: "100vw",
+  height: "42.1875rem",
+  backgroundColor: "rgba(36, 36, 36, 1)",
+  position: "relative",
+  top: "199.8125rem",
+
+}
+
 
 function App() {
   return (
     <div className="appContainer">
-      <NameHeader />
+      <div style={nameHeaderTop}><NameHeader /></div>
       <section style={ringsPatternTopStyle}>
         <RingsPattern />
       </section>
@@ -51,7 +65,9 @@ function App() {
         <RingsPattern />
       </section>
       <ProjectsDisplay />
-      <footer><ContactInfo /></footer>
+      <footer style={footerStyle}>
+        <ContactInfo />
+      </footer>
     </div >
   );
 }

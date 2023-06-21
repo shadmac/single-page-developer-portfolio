@@ -1,0 +1,141 @@
+.msgContainer {
+	width: 69.375rem;
+	height: 20.4375rem;
+	background-color: inherit;
+	display: flex;
+}
+
+.contactContainer {
+	width: 27.8125rem;
+	height: 13rem;
+	background-color: inherit;
+	margin-left: 10.3125rem;
+	margin-top: 5.25rem;
+}
+
+.contactTitle {
+	color: rgba(255, 255, 255, 1);
+	background-color: inherit;
+	width: 20.625rem;
+	height: 5.5rem;
+	font-weight: 700;
+	font-size: 88px;
+	letter-spacing: -2.5px;
+}
+
+.contactMsg {
+	background-color: inherit;
+	color: rgba(217, 217, 217, 1);
+	width: 27.8125rem;
+	height: 5.25rem;
+	margin-top: 2.25rem;
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+.msgFormContainer {
+	background-color: inherit;
+	width: 27.8125rem;
+	height: 20.4375rem;
+	margin-left: 13.75rem;
+	margin-top: 5.25rem;
+}
+
+.nameContainer,
+.emailAdd {
+	display: flex;
+	flex-direction: column;
+	background-color: inherit;
+	width: 27.8125rem;
+	height: auto;
+}
+
+.emailAdd {
+	margin-top: 0.625rem;
+	background-color: inherit;
+}
+
+.msg {
+	margin-top: 2rem;
+	background-color: inherit;
+}
+
+.formField {
+	background-color: inherit;
+	display: flex;
+	justify-content: space-between;
+	width: 27.8125rem;
+	height: 2.6875rem;
+}
+
+.formMsgField {
+	background-color: inherit;
+	display: flex;
+	justify-content: space-between;
+	width: 27.8125rem;
+	height: 6.6875rem;
+}
+
+.formFieldLabel {
+	width: 2.75rem;
+	height: 1.625rem;
+}
+
+.formMsgLabel {
+	width: 4.8125rem;
+	height: 1.625rem;
+}
+
+.formFieldLabel,
+.formMsgLabel {
+	font-weight: 500;
+	font-size: 1rem;
+	letter-spacing: -0.0139rem;
+	text-transform: uppercase;
+	background-color: inherit;
+	color: rgba(255, 255, 255, 1);
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.inputContainer {
+	width: 25.0625rem;
+	height: 1.625rem;
+	display: flex;
+	justify-content: center;
+	background-color: inherit;
+}
+
+.inputMsgContainer {
+	width: 23rem;
+	line-height: 2.2292rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: inherit;
+}
+
+.contactDivider {
+	width: 27.8125rem;
+	height: 0.0625rem;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.sendMsg {
+	width: 9rem;
+	height: 2.375rem;
+	margin-top: 2rem;
+	margin-left: 18.9375rem;
+	background-color: inherit;
+}
+
+.bottomLine {
+	width: 69.4375rem;
+	height: 2rem;
+	top: 34.4375rem;
+	left: 10.3125rem;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	background-color: inherit;
+}
